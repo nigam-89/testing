@@ -1,0 +1,40 @@
+/* scroll bar animation */
+.animated-scrollbar {
+    scroll-behavior: smooth;
+    --scrollbar-width: 8px;
+    --scrollbar-height: 8px;
+    --scrollbar-border-radius: 20px;
+    --scrollbar-border-thickness: 0px;
+    --scrollbar-thumb-color: #0056E3;
+    --scrollbar-track-color: #233c77;
+}
+
+.animated-scrollbar::-webkit-scrollbar {
+    width: var(--scrollbar-width, 20px);
+    height: var(--scrollbar-height, 20px);
+}
+
+.animated-scrollbar::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb-color, #3B82F6);
+    border: var(--scrollbar-border-thickness, 3px) solid var(--scrollbar-border-color, rgb(255, 255, 255));
+    border-radius: var(--scrollbar-border-radius, 4px);
+}
+
+.animated-scrollbar::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-color, #A1A1AA);
+}
+
+.animated-scrollbar::-webkit-scrollbar-corner {
+    background: var(--scrollbar-corner-color, #FFFFFF);
+    border: var(--scrollbar-border-thickness, 3px) solid var(--scrollbar-border-color, rgb(255, 255, 255));
+    border-radius: var(--scrollbar-border-radius, 4px);
+}
+
+.animated-scrollbar::-webkit-scrollbar-button:vertical:start:increment,
+#preview::-webkit-scrollbar-button:vertical:end:decrement,
+#preview::-webkit-scrollbar-button:horizontal:start:increment,
+#preview::-webkit-scrollbar-button:horizontal:end:decrement {
+    display: var(--show-double-buttons, none);
+}
+
+/* scroll bar animation ends */

@@ -1,0 +1,23 @@
+.custom_colors {
+    background-color: #8b5cf6;
+    color: white;
+    animation: colorChange 4s infinite;
+}
+
+/* Define the animation */
+@keyframes colorChange {
+    0% {
+        background-color: red;
+        color: white;
+    }
+
+    50% {
+        background-color: #233c77;
+        color: white;
+    }
+
+    100% {
+        background-color: red;
+        color: white;
+    }
+}

@@ -1,0 +1,6 @@
+.scale-up {
+    transform: scale(2); 
+    transform-origin: center; 
+    height: 100px;
+    margin-top: 20px;
+  }

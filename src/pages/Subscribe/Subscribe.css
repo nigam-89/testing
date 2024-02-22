@@ -1,0 +1,4 @@
+.scale-up {
+    transform: scale(1.5); 
+    transform-origin: left; 
+  }

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap');
+
+.mainContainer {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    /* width: 100vw; */
+    min-height: 100vh;
+}
+
+main {
+    width: 100%;
+}
+
+.sidebar {
+    background: #233c77;
+    color: #fff;
+    overflow: auto;
+    width: auto;
+    /* transition: all 5s; */
+    transition: all 0.5s;
+    padding-bottom: 5rem;
+}
+
+.top_section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 15px 15px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.logout_section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+}
+
+.logo {
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.bars {
+    display: flex;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+
+.link:hover {
+    background: white;
+    color: #000;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.active {
+    background: white;
+    color: black;
+    font-weight: 500;
+}
+
+.icon,
+.link_text {
+    font-size: 15px;
+}

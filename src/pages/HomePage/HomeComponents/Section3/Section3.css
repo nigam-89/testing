@@ -1,0 +1,30 @@
+.section3_bg::before {
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    background-image: url("https://res.cloudinary.com/djr2f6dlh/image/upload/v1699423992/key_perosn/BG_jhkmcl.webp");
+
+}
+
+.section3_bg::after {
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.7;
+    background: #373B44;
+    /* background: -webkit-linear-gradient(to right, #0a51c4, #373B44); */
+    /* background: linear-gradient(to right, #0a51c4, #373B44); */
+}
